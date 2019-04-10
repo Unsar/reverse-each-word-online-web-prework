@@ -8,7 +8,7 @@ def reverse_each_word_with_each(sentence)
 end
 
 def reverse_each_word(sentence)
-  array = string.split(" ") 
+  array = sentence.split(" ") 
   test_array = []
   array.collect do|sentence| 
     test_array << sentence.reverse 
